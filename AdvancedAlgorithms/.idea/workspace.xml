@@ -2,62 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b15f442f-2cf3-4df3-862c-3e35adcd0166" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/Algorithms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedAlgorithms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming/algorithm/Lzw/LZW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming/algorithm/Utils/SimpleUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming/algorithm/boyermoore/BoyerMoore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming/algorithm/boyermoore/BoyerMooreHorspool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming/algorithm/bruteforce/BruteForce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming/algorithm/euclid/Euclid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming/algorithm/huffman/FrequencyComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming/algorithm/huffman/Huffman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming/algorithm/huffman/HuffmanNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming/algorithm/kmp/KnuthMorrisPratt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming/algorithm/rabinkarp/RabinKarp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programming/algorithm/zAlgorithm/ZAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/programming/algorithm/FirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/programming/algorithm/Lzw/LZWTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/programming/algorithm/Utils/SimpleUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/programming/algorithm/boyermoore/BoyerMooreHorspoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/programming/algorithm/boyermoore/BoyerMooreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/programming/algorithm/bruteforce/BruteForceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/programming/algorithm/huffman/HuffmanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/programming/algorithm/kmp/KnuthMorrisPrattTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/programming/algorithm/rabinkarp/RabinKarpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/programming/algorithm/zalgorithm/ZAlgorithmTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/programming/algorithm/Lzw/LZW.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/programming/algorithm/Utils/SimpleUtils$FileType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/programming/algorithm/Utils/SimpleUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/programming/algorithm/boyermoore/BoyerMoore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/programming/algorithm/boyermoore/BoyerMooreHorspool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/programming/algorithm/bruteforce/BruteForce.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/programming/algorithm/euclid/Euclid.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/programming/algorithm/huffman/FrequencyComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/programming/algorithm/huffman/Huffman.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/programming/algorithm/huffman/HuffmanNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/programming/algorithm/kmp/KnuthMorrisPratt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/programming/algorithm/rabinkarp/RabinKarp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/programming/algorithm/zAlgorithm/ZAlgorithm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/programming/algorithm/FirstTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/programming/algorithm/Lzw/LZWTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/programming/algorithm/Utils/SimpleUtilsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/programming/algorithm/boyermoore/BoyerMooreHorspoolTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/programming/algorithm/boyermoore/BoyerMooreTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/programming/algorithm/bruteforce/BruteForceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/programming/algorithm/huffman/HuffmanTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/programming/algorithm/kmp/KnuthMorrisPrattTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/programming/algorithm/rabinkarp/RabinKarpTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/programming/algorithm/zalgorithm/ZAlgorithmTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,16 +14,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/programming/algorithm/zalgorithm/ZAlgorithmTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/programming/algorithm/preffixtree/PrefixNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="140">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/programming/algorithm/preffixtree/PrefixTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="42" />
+              <folding>
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#1012#1013#0" expanded="true" />
+                <element signature="e#1056#1057#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/programming/algorithm/prefixtree/PrefixTreeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="44" column="35" lean-forward="true" selection-end-line="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,6 +71,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/programming/algorithm/preffixtree/PrefixNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/programming/algorithm/preffixtree/PrefixTree.java" />
+        <option value="$PROJECT_DIR$/src/test/java/programming/algorithm/prefixtree/PrefixTreeTest.java" />
       </list>
     </option>
   </component>
@@ -98,10 +85,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="208" />
-    <option name="y" value="5" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1062" />
-    <option name="height" value="672" />
+    <option name="height" value="667" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -147,6 +134,24 @@
               <item name="AdvancedAlgorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdvancedAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="kmp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdvancedAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdvancedAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="preffixtree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdvancedAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdvancedAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -164,6 +169,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AdvancedAlgorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdvancedAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="prefixtree" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -172,10 +186,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550641681322" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550785981202" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -198,7 +213,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BoyerMooreTest">
+  <component name="RunManager" selected="JUnit.PrefixTreeTest">
+    <configuration name="PrefixTreeTest.insertTest" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programming.algorithm.prefixtree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="programming.algorithm.prefixtree" />
+      <option name="MAIN_CLASS_NAME" value="programming.algorithm.prefixtree.PrefixTreeTest" />
+      <option name="METHOD_NAME" value="insertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BoyerMooreHorspoolTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdvancedAlgorithms" />
       <extension name="coverage">
@@ -229,8 +260,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrefixTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programming.algorithm.prefixtree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="programming.algorithm.prefixtree" />
+      <option name="MAIN_CLASS_NAME" value="programming.algorithm.prefixtree.PrefixTreeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrefixTreeTest" />
+        <item itemvalue="Android JUnit.PrefixTreeTest.insertTest" />
         <item itemvalue="JUnit.BoyerMooreTest" />
         <item itemvalue="JUnit.BoyerMooreHorspoolTest" />
       </list>
@@ -261,7 +309,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -269,16 +317,17 @@
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25113463" />
+      <window_info id="Learn" weight="0.32934132" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33131617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.33146068" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3283859" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.26881722" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2718894" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3283859" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -292,6 +341,36 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Learn" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.43712574" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Thumbnails" order="0" visible="true" weight="0.33146068" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3283859" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3283859" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/programming/algorithm/FirstTest.java">
@@ -323,8 +402,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/programming/algorithm/zalgorithm/ZAlgorithmTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="102">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/programming/algorithm/Lzw/LZW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret column="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/programming/algorithm/preffixtree/PrefixNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/programming/algorithm/preffixtree/PrefixTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="42" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/programming/algorithm/prefixtree/PrefixTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="44" column="35" lean-forward="true" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -394,6 +515,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: junit:junit:4.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
