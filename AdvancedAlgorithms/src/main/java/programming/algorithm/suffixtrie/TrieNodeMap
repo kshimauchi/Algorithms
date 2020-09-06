@@ -1,20 +1,13 @@
-import programming.suffixtrie;
 
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
-public class TrieNode {
+public class TrieNodeMap {
 
-    public final int MAX_ARRAY = 256;
-
-    TrieNode[] children = new TrieNode[MAX_ARRAY];
+    Map<Character, TrieNodeMap> children = new HashMap<Character, TrieNodeMap>(1);
     List<Integer> indexes = new LinkedList<Integer>();
-
-    public TrieNode() {
-        for(int i=0; i<MAX_ARRAY; i++) {
-            children[i] = null;
-        }
-    }
 
     public void insertSuffix(String text) {
         text = text + "$";
@@ -25,19 +18,17 @@ public class TrieNode {
 
     /**
      * banana
-     * 012345
-     *
      * @param text
      * @param index
      */
     public void insertSuffix(String text, int index) {
         if (text.length() > index) {
             char current = text.charAt(index);
-            if (children[current] == null) {
-                children[current] = new TrieNode();
+            if (children.get(current) == null) {
+                children.put(current, new TrieNodeMap());
             }
-            children[current].indexes.add(index);
-            children[current].insertSuffix(text, ++index);
+            children.get(current).indexes.add(index);
+            children.get(current).insertSuffix(text, ++index);
         }
     }
 
@@ -48,8 +39,8 @@ public class TrieNode {
     private List<Integer> search(String pattern, int startPosition) {
         if (pattern.length() == startPosition) return indexes;
 
-        if (children[pattern.charAt(startPosition)] != null) {
-            return children[pattern.charAt(startPosition)].search(pattern, ++startPosition);
+        if (children.get(pattern.charAt(startPosition)) != null) {
+            return children.get(pattern.charAt(startPosition)).search(pattern, ++startPosition);
         }
 
         return null;
@@ -61,11 +52,11 @@ public class TrieNode {
 
     public boolean isSuffix(String pattern, int startPosition) {
         if (pattern.length() == startPosition) {
-            return (children['$'] != null);
+            return (children.get('$') != null);
         }
 
-        if (children[pattern.charAt(startPosition)] != null) {
-            return children[pattern.charAt(startPosition)].isSuffix(pattern, ++startPosition);
+        if (children.get(pattern.charAt(startPosition)) != null) {
+            return children.get(pattern.charAt(startPosition)).isSuffix(pattern, ++startPosition);
         }
 
         return false;
@@ -79,8 +70,8 @@ public class TrieNode {
     @Override
     public String toString() {
         String s = "";
-        for(int c=0; c<children.length;c++) {
-            if (children[c] != null)  s += (char) c + "->" + children[c].toString();
+        for(Character c: children.keySet()) {
+            s += c + "->" + children.get(c).toString();
         }
         return s;
     }

@@ -1,4 +1,4 @@
-import programming.suffixtrie;
+package programming.algorithm.suffixtrie;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -84,4 +84,5 @@ public class TrieNode {
         }
         return s;
     }
+}
 }
