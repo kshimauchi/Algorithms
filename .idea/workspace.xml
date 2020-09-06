@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02f60f6c-09f4-48a0-8b21-c3e03ab48f5e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/src/main/java/programming/algorithm/suffixtrie/TrieNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedAlgorithms/src/main/java/programming/algorithm/suffixtrie/TrieNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedAlgorithms/src/test/java/programming/algorithm/suffixtrie/SuffixTrieMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedAlgorithms/src/test/java/programming/algorithm/suffixtrie/SuffixTrieTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +39,23 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kshim\Desktop\WorkSpace\AdvancedAlgorithms\Algorithms\AdvancedAlgorithms\src\test\java\programming\algorithm\boyermoore" />
+      <recent name="C:\Users\kshim\Desktop\WorkSpace\AdvancedAlgorithms\Algorithms\AdvancedAlgorithms\src\test\java\programming\algorithm\suffixtrie" />
       <recent name="C:\Users\kshim\Desktop\WorkSpace\AdvancedAlgorithms\Algorithms\AdvancedAlgorithms\src\main\java\programming\algorithm" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.maven">
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <useClassPathOnly />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="Algorithms" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -76,6 +91,10 @@
         <option name="MakeNoErrorCheck" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="Maven.maven" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -102,6 +121,10 @@
     </history-entry>
   </component>
   <component name="WindowStateProjectService">
+    <state x="134" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599424397442">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="134" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728@0.0.1360.728" timestamp="1599424397442" />
     <state x="426" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599374551104">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -111,22 +134,26 @@
     </state>
     <state x="461" y="119" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1599373952064" />
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595975201387" />
-    <state width="1317" height="176" key="GridCell.Tab.0.bottom" timestamp="1598739358167">
+    <state width="1317" height="176" key="GridCell.Tab.0.bottom" timestamp="1599424360209">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="176" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1598739358167" />
-    <state width="1317" height="176" key="GridCell.Tab.0.center" timestamp="1598739358166">
+    <state width="1317" height="176" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1599424360209" />
+    <state width="1317" height="176" key="GridCell.Tab.0.center" timestamp="1599424360209">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="176" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1598739358166" />
-    <state width="1317" height="176" key="GridCell.Tab.0.left" timestamp="1598739358166">
+    <state width="1317" height="176" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1599424360209" />
+    <state width="1317" height="176" key="GridCell.Tab.0.left" timestamp="1599424360209">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="176" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1598739358166" />
-    <state width="1317" height="176" key="GridCell.Tab.0.right" timestamp="1598739358166">
+    <state width="1317" height="176" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1599424360209" />
+    <state width="1317" height="176" key="GridCell.Tab.0.right" timestamp="1599424360209">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="176" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1598739358166" />
+    <state width="1317" height="176" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1599424360209" />
+    <state x="387" y="0" width="585" height="728" key="find.popup" timestamp="1599375017577">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="387" y="0" width="585" height="728" key="find.popup/0.0.1360.728@0.0.1360.728" timestamp="1599375017577" />
   </component>
   <component name="masterDetails">
     <states>
