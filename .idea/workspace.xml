@@ -2,49 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02f60f6c-09f4-48a0-8b21-c3e03ab48f5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedAlgorithms/src/main/java/programming/algorithm/selectionsort/Selectionsort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedAlgorithms/src/main/java/programming/algorithm/suffixtrie/SuffixTrie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedAlgorithms/src/main/java/programming/algorithm/suffixtrie/SuffixTrieMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedAlgorithms/src/main/java/programming/algorithm/suffixtrie/TrieNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedAlgorithms/src/main/java/programming/algorithm/suffixtrie/TrieNodeMap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/Algorithms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/src/main/java/BasicAlgorithms/Programming/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/src/test/java/BasicAlgorithms/Programming/BubbleSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedAlgorithms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/src/main/java/programming/algorithm/prefixtree/PrefixNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedAlgorithms/src/main/java/programming/algorithm/prefixtree/PrefixNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/classes/META-INF/AdvancedAlgorithms.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/classes/programming/algorithm/Lzw/LZW.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/classes/programming/algorithm/Utils/SimpleUtils$FileType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/classes/programming/algorithm/Utils/SimpleUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/classes/programming/algorithm/boyermoore/BoyerMoore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/classes/programming/algorithm/boyermoore/BoyerMooreHorspool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/classes/programming/algorithm/bruteforce/BruteForce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/classes/programming/algorithm/euclid/Euclid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/classes/programming/algorithm/huffman/FrequencyComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/classes/programming/algorithm/huffman/Huffman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/classes/programming/algorithm/huffman/HuffmanNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/classes/programming/algorithm/kmp/KnuthMorrisPratt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/classes/programming/algorithm/prefixtree/PrefixNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/classes/programming/algorithm/prefixtree/PrefixTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/classes/programming/algorithm/rabinkarp/RabinKarp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/classes/programming/algorithm/zAlgorithm/ZAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/test-classes/programming/algorithm/FirstTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/test-classes/programming/algorithm/Lzw/LZWTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/test-classes/programming/algorithm/Utils/SimpleUtilsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/test-classes/programming/algorithm/boyermoore/BoyerMooreHorspoolTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/test-classes/programming/algorithm/boyermoore/BoyerMooreTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/test-classes/programming/algorithm/bruteforce/BruteForceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/test-classes/programming/algorithm/huffman/HuffmanTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/test-classes/programming/algorithm/kmp/KnuthMorrisPrattTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/test-classes/programming/algorithm/prefixtree/PrefixTreeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/test-classes/programming/algorithm/rabinkarp/RabinKarpTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/target/test-classes/programming/algorithm/zalgorithm/ZAlgorithmTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedAlgorithms/src/main/java/programming/algorithm/suffixtrie/TrieNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedAlgorithms/src/main/java/programming/algorithm/suffixtrie/TrieNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596494636548" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
