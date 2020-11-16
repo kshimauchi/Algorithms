@@ -1,27 +1,23 @@
-pipeline {
-    agent any
-
+pipeline { 
+    agent any 
+    options {
+        skipStagesAfterUnstable()
+    }
     stages {
-        stage('build') {
+        stage('Build') { 
+            steps { 
+                sh 'make' 
+            }
+        }
+        stage('Test'){
             steps {
-                /* `make check` returns non-zero on test failures,
-                * using `true` to allow the Pipeline to continue nonetheless
-                will develope this later
-                */
-                echo 'building the application...'
-                sh 'make check || true'
-
-                junit '**/target/*.xml'
+                sh 'make check'
+                junit 'reports/**/*.xml' 
             }
         }
-        stage('test'){
-            steps{
-                echo 'testing the application...'
-            }
-        }
-        stage('deploy'){
-            steps{
-                echo 'building the application...'
+        stage('Deploy') {
+            steps {
+                sh 'make publish'
             }
         }
     }
