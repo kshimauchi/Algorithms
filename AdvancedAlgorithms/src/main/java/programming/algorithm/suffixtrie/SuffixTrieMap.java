@@ -1,4 +1,5 @@
 package programming.algorithm.suffixtrie;
+
 import java.util.List;
 
 public class SuffixTrieMap {

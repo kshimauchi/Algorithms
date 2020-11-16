@@ -10,6 +10,7 @@
       <root url="jar://$PROJECT_DIR$/lib/junit-jupiter-params-5.4.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/junit-jupiter-engine-5.4.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/junit-platform-engine-1.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

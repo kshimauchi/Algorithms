@@ -1,87 +1,51 @@
-import programming.suffixtrie;
+package programming.algorithm.prefixtree;
 
-import java.util.LinkedList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
-public class TrieNode {
+public class PrefixNode {
 
-    public final int MAX_ARRAY = 256;
+    char c;
+    int id;
+    Map<Character, PrefixNode> children;
+    boolean isWord = false;
 
-    TrieNode[] children = new TrieNode[MAX_ARRAY];
-    List<Integer> indexes = new LinkedList<Integer>();
-
-    public TrieNode() {
-        for(int i=0; i<MAX_ARRAY; i++) {
-            children[i] = null;
-        }
+    public PrefixNode() {
+        c = 0;
+        id = 0;
     }
 
-    public void insertSuffix(String text) {
-        text = text + "$";
-        for (int i=0; i<text.length(); i++) {
-            insertSuffix(text, i);
-        }
+    public PrefixNode(char c, int id) {
+        this.c = c;
+        this.id = id;
     }
 
-    /**
-     * banana
-     * 012345
-     *
-     * @param text
-     * @param index
-     */
-    public void insertSuffix(String text, int index) {
-        if (text.length() > index) {
-            char current = text.charAt(index);
-            if (children[current] == null) {
-                children[current] = new TrieNode();
-            }
-            children[current].indexes.add(index);
-            children[current].insertSuffix(text, ++index);
-        }
+    public boolean hasChildren(char c) {
+        return (children != null && children.containsKey(c));
     }
 
-    public List<Integer> search(String pattern) {
-        return search(pattern, 0);
+    public PrefixNode getChildren(char c) {
+        if (!hasChildren(c)) return null;
+        return children.get(c);
     }
 
-    private List<Integer> search(String pattern, int startPosition) {
-        if (pattern.length() == startPosition) return indexes;
-
-        if (children[pattern.charAt(startPosition)] != null) {
-            return children[pattern.charAt(startPosition)].search(pattern, ++startPosition);
-        }
-
-        return null;
+    public void addChildren(PrefixNode node) {
+        if (children == null) children = new HashMap<Character, PrefixNode>();
+        if (!hasChildren(node.c)) children.put(node.c, node);
     }
 
-    public boolean isSuffix(String pattern) {
-        return isSuffix(pattern, 0);
-    }
-
-    public boolean isSuffix(String pattern, int startPosition) {
-        if (pattern.length() == startPosition) {
-            return (children['$'] != null);
-        }
-
-        if (children[pattern.charAt(startPosition)] != null) {
-            return children[pattern.charAt(startPosition)].isSuffix(pattern, ++startPosition);
-        }
-
+    public boolean canDelete() {
+        if (children == null || children.size() == 0) return true;
         return false;
-    }
-
-    public boolean isSubstring(String pattern) {
-        List<Integer> indexes = search(pattern);
-        return (indexes != null);
     }
 
     @Override
     public String toString() {
-        String s = "";
-        for(int c=0; c<children.length;c++) {
-            if (children[c] != null)  s += (char) c + "->" + children[c].toString();
-        }
-        return s;
+        if(children != null) return c + (isWord?"." + id:"") + "->[" + children.values() + "]";
+        return c + "." + id;
     }
+
+
+
+
 }

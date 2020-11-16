@@ -1,4 +1,4 @@
-package programming.algorithm.suffixTrie;
+package programming.algorithm.suffixtrie;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -78,4 +78,5 @@ public class SuffixTrieTest {
         Assert.assertFalse(t.isSubstring("ac"));
         Assert.assertFalse(t.isSubstring("c"));
     }
+
 }

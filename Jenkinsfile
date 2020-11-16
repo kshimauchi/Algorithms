@@ -23,6 +23,6 @@ pipeline {
             steps{
                 echo 'building the application...'
             }
-        }
+        }kol
     }
 }

@@ -7,15 +7,16 @@ public class PrefixTree {
     public PrefixTree() {
         root = new PrefixNode();
     }
-    /** cat
-     *  check if current object root has childhren c,
-     *  if not then we create a new instance and assign id,
-     *  and move,
-     *
-     * **/
+
+    /**
+     *  r->cat
+     *       _
+     * @param word
+     * @param id
+     */
     public void insert(char[] word, int id) {
         PrefixNode current = root;
-        for(int i=0; i < word.length; i++) {
+        for (int i=0; i<word.length; i++) {
             if (current.hasChildren(word[i])) {
                 current = current.getChildren(word[i]);
             } else {
@@ -30,7 +31,7 @@ public class PrefixTree {
 
     public PrefixNode find(char[] word) {
         PrefixNode current = root;
-        for(int i=0; i < word.length; i++) {
+        for(int i=0; i<word.length; i++) {
             if (current.hasChildren(word[i])) {
                 current = current.getChildren(word[i]);
             } else {
@@ -39,12 +40,14 @@ public class PrefixTree {
         }
         return current;
     }
+
+
     public boolean delete(char[] word) {
         return delete(word, root, 0);
     }
 
     public boolean delete(char[] word, PrefixNode node, int wIndex) {
-        if (wIndex == word.length - 1) {
+        if (wIndex == word.length-1) {
             PrefixNode w = node.getChildren(word[wIndex]);
             w.isWord = false;
             w.id = 0;
@@ -56,10 +59,10 @@ public class PrefixTree {
             if (!node.hasChildren(word[wIndex])) return false;
             boolean canDelete = delete(word, node.getChildren(word[wIndex]), ++wIndex);
             if (canDelete) {
-                if (node.getChildren(word[--wIndex]).isWord) return false;
+               if (node.getChildren(word[--wIndex]).isWord) return false;
 
-                node.children.remove(word[wIndex]);
-                return true;
+               node.children.remove(word[wIndex]);
+               return true;
             }
         }
         return false;

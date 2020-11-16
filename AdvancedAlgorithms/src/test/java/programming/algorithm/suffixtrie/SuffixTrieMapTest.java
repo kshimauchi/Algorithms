@@ -1,4 +1,4 @@
-package programming.algorithm.suffixTrieMap;
+package programming.algorithm.suffixtrie;
 
 import org.junit.Assert;
 import org.junit.Before;

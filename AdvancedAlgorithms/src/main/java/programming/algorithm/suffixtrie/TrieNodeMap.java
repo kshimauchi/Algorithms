@@ -1,3 +1,4 @@
+package programming.algorithm.suffixtrie;
 
 import java.util.HashMap;
 import java.util.LinkedList;

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02f60f6c-09f4-48a0-8b21-c3e03ab48f5e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_5_4_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_5_4_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +15,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="318" />
+    <option name="y" value="92" />
+    <option name="width" value="694" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectId" id="1fKmMmRUyjFiqI6F0ApFYUiatTd" />
   <component name="ProjectViewState">
@@ -27,10 +37,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605413666472" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605550301047" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/AdvancedAlgorithms" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/junit-4.12.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -42,69 +52,62 @@
       <recent name="C:\Users\kshim\Desktop\WorkSpace\AdvancedAlgorithms\Algorithms\AdvancedAlgorithms\src\main\java\programming\algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test">
-    <configuration name="AlgoTests" type="JUnit" factoryName="JUnit">
-      <module name="Algorithms" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <module name="Algorithms" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="JUnit" factoryName="JUnit">
-      <module name="Algorithms" />
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="preprocessTableTest()" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Whole project (1)">
+    <configuration name="Whole project (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="11.0.8" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AdvancedAlgorithms" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Whole project" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11.0.8" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="PARAMETERS" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
       <dir value="$PROJECT_DIR$/AdvancedAlgorithms/src/test/java/programming/algorithm/boyermoore" />
-      <method v="2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11.0.8" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="category" />
+      <option name="PARAMETERS" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="maven" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
-        <option name="myRunnerSettings">
-          <MavenRunnerSettings>
-            <option name="delegateBuildToMaven" value="false" />
-            <option name="environmentProperties">
-              <map />
-            </option>
-            <option name="jreName" value="1.8" />
-            <option name="mavenProperties">
-              <map />
-            </option>
-            <option name="passParentEnv" value="true" />
-            <option name="runMavenInBackground" value="true" />
-            <option name="skipTests" value="false" />
-            <option name="vmOptions" value="" />
-          </MavenRunnerSettings>
-        </option>
+        <option name="myRunnerSettings" />
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
             <option name="profiles">
@@ -127,11 +130,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.test" />
-      <item itemvalue="JUnit.AlgoTests" />
+      <item itemvalue="JUnit.Whole project" />
+      <item itemvalue="JUnit.Whole project (1)" />
       <item itemvalue="Maven.maven" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Whole project (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -156,6 +163,27 @@
     <history-entry file="test - 2020.11.14 at 20h 11m 38s.xml">
       <configuration name="test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Whole_project - 2020.11.16 at 09h 46m 50s.xml">
+      <configuration name="Whole project" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Whole_project - 2020.11.16 at 09h 53m 52s.xml">
+      <configuration name="Whole project" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Whole_project - 2020.11.16 at 09h 53m 53s.xml">
+      <configuration name="Whole project" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Whole_project - 2020.11.16 at 09h 53m 57s.xml">
+      <configuration name="Whole project" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Whole_project - 2020.11.16 at 09h 54m 38s.xml">
+      <configuration name="Whole project" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Whole_project - 2020.11.16 at 09h 55m 50s.xml">
+      <configuration name="Whole project" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Whole_project - 2020.11.16 at 09h 59m 43s.xml">
+      <configuration name="Whole project" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="WindowStateProjectService">
     <state x="283" y="0" key="#AlgoTests" timestamp="1605412191268">
@@ -166,18 +194,26 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="283" y="0" key="#Unnamed/0.0.1360.728@0.0.1360.728" timestamp="1601072825329" />
-    <state x="134" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605413204608">
+    <state x="134" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605550327363">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="134" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728@0.0.1360.728" timestamp="1605413204608" />
+    <state x="134" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728@0.0.1360.728" timestamp="1605550327363" />
     <state x="426" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605501575216">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="426" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1605501575216" />
-    <state x="409" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605413172974">
+    <state x="460" y="69" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1605549377322">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="409" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1360.728@0.0.1360.728" timestamp="1605413172974" />
+    <state x="460" y="69" key="#com.intellij.ide.macro.MacrosDialog/0.0.1360.728@0.0.1360.728" timestamp="1605549377322" />
+    <state x="410" y="140" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1605540784734">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="410" y="140" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1360.728@0.0.1360.728" timestamp="1605540784734" />
+    <state x="409" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605548650852">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="409" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1360.728@0.0.1360.728" timestamp="1605548650852" />
     <state x="283" y="0" key="#test" timestamp="1601071465978">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -186,50 +222,50 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="92" y="92" width="1176" height="544" key="DiffContextDialog/0.0.1360.728@0.0.1360.728" timestamp="1601071655779" />
-    <state x="547" y="114" width="618" height="499" key="EnvironmentVariablesDialog" timestamp="1601072850319">
+    <state x="547" y="114" width="618" height="499" key="EnvironmentVariablesDialog" timestamp="1605540685003">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="547" y="114" width="618" height="499" key="EnvironmentVariablesDialog/0.0.1360.728@0.0.1360.728" timestamp="1601072850319" />
+    <state x="547" y="114" width="618" height="499" key="EnvironmentVariablesDialog/0.0.1360.728@0.0.1360.728" timestamp="1605540685003" />
     <state x="461" y="119" key="FileChooserDialogImpl" timestamp="1601071619699">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="461" y="119" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1601071619699" />
-    <state width="1010" height="168" key="GridCell.Tab.0.bottom" timestamp="1605413263423">
+    <state width="658" height="223" key="GridCell.Tab.0.bottom" timestamp="1605550353871">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1010" height="168" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1605413263423" />
-    <state width="1010" height="168" key="GridCell.Tab.0.center" timestamp="1605413263423">
+    <state width="658" height="223" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1605550353871" />
+    <state width="658" height="223" key="GridCell.Tab.0.center" timestamp="1605550353871">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1010" height="168" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1605413263423" />
-    <state width="1010" height="168" key="GridCell.Tab.0.left" timestamp="1605413263423">
+    <state width="658" height="223" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1605550353871" />
+    <state width="658" height="223" key="GridCell.Tab.0.left" timestamp="1605550353870">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1010" height="168" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1605413263423" />
-    <state width="1010" height="168" key="GridCell.Tab.0.right" timestamp="1605413263423">
+    <state width="658" height="223" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1605550353870" />
+    <state width="658" height="223" key="GridCell.Tab.0.right" timestamp="1605550353871">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1010" height="168" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1605413263423" />
-    <state width="658" height="223" key="GridCell.Tab.1.bottom" timestamp="1605412226013">
+    <state width="658" height="223" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1605550353871" />
+    <state width="658" height="223" key="GridCell.Tab.1.bottom" timestamp="1605550353871">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="658" height="223" key="GridCell.Tab.1.bottom/0.0.1360.728@0.0.1360.728" timestamp="1605412226013" />
-    <state width="658" height="223" key="GridCell.Tab.1.center" timestamp="1605412226013">
+    <state width="658" height="223" key="GridCell.Tab.1.bottom/0.0.1360.728@0.0.1360.728" timestamp="1605550353871" />
+    <state width="658" height="223" key="GridCell.Tab.1.center" timestamp="1605550353871">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="658" height="223" key="GridCell.Tab.1.center/0.0.1360.728@0.0.1360.728" timestamp="1605412226013" />
-    <state width="658" height="223" key="GridCell.Tab.1.left" timestamp="1605412226012">
+    <state width="658" height="223" key="GridCell.Tab.1.center/0.0.1360.728@0.0.1360.728" timestamp="1605550353871" />
+    <state width="658" height="223" key="GridCell.Tab.1.left" timestamp="1605550353871">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="658" height="223" key="GridCell.Tab.1.left/0.0.1360.728@0.0.1360.728" timestamp="1605412226012" />
-    <state width="658" height="223" key="GridCell.Tab.1.right" timestamp="1605412226013">
+    <state width="658" height="223" key="GridCell.Tab.1.left/0.0.1360.728@0.0.1360.728" timestamp="1605550353871" />
+    <state width="658" height="223" key="GridCell.Tab.1.right" timestamp="1605550353871">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="658" height="223" key="GridCell.Tab.1.right/0.0.1360.728@0.0.1360.728" timestamp="1605412226013" />
-    <state x="181" y="0" key="SettingsEditor" timestamp="1605412999538">
+    <state width="658" height="223" key="GridCell.Tab.1.right/0.0.1360.728@0.0.1360.728" timestamp="1605550353871" />
+    <state x="181" y="0" key="SettingsEditor" timestamp="1605548570181">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="181" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1605412999537" />
+    <state x="181" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1605548570181" />
     <state x="387" y="0" width="585" height="728" key="find.popup" timestamp="1599375017577">
       <screen x="0" y="0" width="1360" height="728" />
     </state>

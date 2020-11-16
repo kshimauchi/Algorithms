@@ -1,5 +1,6 @@
 package programming.algorithm.suffixtrie;
 
+
 import java.util.LinkedList;
 import java.util.List;
 
