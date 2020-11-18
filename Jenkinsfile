@@ -1,28 +1,28 @@
 pipeline {
     agent any
-
+    tools {
+        maven 'Maven 3.3.9'
+        jdk 'jdk8'
+    }
     stages {
-        stage('build') {
+        stage ('Initialize') {
             steps {
-                /* `make check` returns non-zero on test failures,
-                * using `true` to allow the Pipeline to continue nonetheless
-                will develope this later
-                */
-                echo 'building the application...'
-                sh 'make check || true'
+                sh '''
+                    echo "PATH = ${PATH}"
+                    echo "M2_HOME = ${M2_HOME}"
+                '''
+            }
+        }
 
-                junit '**/target/*.xml'
+        stage ('Build') {
+            steps {
+                sh 'mvn -Dmaven.test.failure.ignore=true install'
+            }
+            post {
+                success {
+                    junit 'target/surefire-repports/**/*.xml'
+                }
             }
         }
-        stage('test'){
-            steps{
-                echo 'testing the application...'
-            }
-        }
-        stage('deploy'){
-            steps{
-                echo 'building the application...'
-            }
-        }kol
     }
 }
